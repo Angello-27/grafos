@@ -1,10 +1,11 @@
 from Negocio.Organizador import *
+from Negocio.Graficador import mostrar
 
 
 def main():
-    pass
     grafo = construir()
     imprimir(grafo)
+    mostrar(grafo)
 
 
 if __name__ == '__main__':

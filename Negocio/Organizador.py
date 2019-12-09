@@ -4,11 +4,11 @@ import Modelo.Estructura as modelo
 def construir():
     grafo = modelo.Grafo()
     grafo.agregar("Universidad UAGRM")
-    grafo.agregar("Segundo elemento")
-    grafo.agregar("Tercer elemento")
-    grafo.agregar("Cuarto elemento")
-    grafo.agregar("Quinto elemento")
-    grafo.agregar("Sexto elemento")
+    grafo.agregar("La Ramada")
+    grafo.agregar("El Chiriguano")
+    grafo.agregar("Cine Center")
+    grafo.agregar("Ventura Mall")
+    grafo.agregar("El Cristo")
 
     grafo.enlazar(3, 0, 2, 5)
     grafo.enlazar(0, 1, 0, 5)

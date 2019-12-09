@@ -43,8 +43,8 @@ class Vertice:
         self.conectados[item] = conexion
 
     def __str__(self):
-        return "{id:" + str(self.id) + ", nombre:" + self.nombre + \
-               "}\nConectados:" + str([arista for arista in self.conectados])
+        return "id:" + str(self.id) + ", nombre:" + self.nombre + \
+               "\nConectados:" + str([arista for arista in self.conectados])
 
 
 class Grafo:
