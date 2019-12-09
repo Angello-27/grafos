@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="934684e3-a95f-41e7-96b0-621ca17d3aeb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/PC_Miguel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modelo/Estructura.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Grafos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Grafos.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="934684e3-a95f-41e7-96b0-621ca17d3aeb" name="Default Changelist" comment="guardando la estructura del modelo">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/PC_Miguel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/PC_Miguel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modelo/Estructura.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo/Estructura.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/networkx1.png" beforeDir="false" />
     </list>
@@ -97,13 +95,41 @@
       <option name="presentableId" value="Default" />
       <updated>1575647105140</updated>
     </task>
+    <task id="LOCAL-00001" summary="guardando la estructura del modelo">
+      <created>1575906472142</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575906472142</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="guardando la estructura del modelo" />
+    <option name="LAST_COMMIT_MESSAGE" value="guardando la estructura del modelo" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="494" y="97" key="CommitChangelistDialog2" timestamp="1575906434486">
+    <state x="494" y="97" key="CommitChangelistDialog2" timestamp="1575906789303">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="494" y="97" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1575906434486" />
+    <state x="494" y="97" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1575906789303" />
+    <state width="1659" height="271" key="GridCell.Tab.0.bottom" timestamp="1575907829712">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1659" height="271" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1575907829712" />
+    <state width="1659" height="271" key="GridCell.Tab.0.center" timestamp="1575907829711">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1659" height="271" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1575907829711" />
+    <state width="1659" height="271" key="GridCell.Tab.0.left" timestamp="1575907829711">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1659" height="271" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1575907829711" />
+    <state width="1659" height="271" key="GridCell.Tab.0.right" timestamp="1575907829712">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1659" height="271" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1575907829712" />
     <state x="341" y="147" key="SettingsEditor" timestamp="1575902966684">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>

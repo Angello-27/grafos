@@ -39,7 +39,7 @@ class Grafo:
         else:
             return None
 
-    def elementos(self):
+    def getElementos(self):
         return self.elementos.keys()
 
     def enlazar(self, elem1, elem2, costo=0):
