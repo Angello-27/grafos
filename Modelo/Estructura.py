@@ -23,6 +23,8 @@ class Vertice:
     def __init__(self, id, nombre):
         self.id = id
         self.nombre = nombre
+        self.latitud = 0
+        self.longitud = 0
         self.conectados = {}
 
     def getId(self):
@@ -42,7 +44,7 @@ class Vertice:
 
     def __str__(self):
         return "{id:" + str(self.id) + ", nombre:" + self.nombre + \
-               "}\nConectados:" + str([x.id for x in self.conectados])
+               "}\nConectados:" + str([arista for arista in self.conectados])
 
 
 class Grafo:
@@ -68,7 +70,7 @@ class Grafo:
 
     def enlazar(self, elem1, elem2, tiempo, distancia):
         conexion = Arista(tiempo, distancia)
-        self.elementos[elem1].conectar(self.elementos[elem2], conexion)
+        self.elementos[elem1].conectar(elem2, conexion)
 
     def __contains__(self, item):
         return item in self.elementos

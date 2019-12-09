@@ -3,7 +3,7 @@ import Modelo.Estructura as modelo
 
 def construir():
     grafo = modelo.Grafo()
-    grafo.agregar("Primer elemento")
+    grafo.agregar("Universidad UAGRM")
     grafo.agregar("Segundo elemento")
     grafo.agregar("Tercer elemento")
     grafo.agregar("Cuarto elemento")
