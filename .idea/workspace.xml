@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="934684e3-a95f-41e7-96b0-621ca17d3aeb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Negocio/Graficador.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Negocio/Organizador.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/PC_Miguel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/PC_Miguel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modelo/Estructura.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo/Estructura.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,39 +118,51 @@
       <option name="project" value="LOCAL" />
       <updated>1575913965576</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="actualizando el README">
+      <created>1575914177496</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575914177496</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="guardando la estructura del modelo" />
     <MESSAGE value="probando la estructura del grafo" />
-    <option name="LAST_COMMIT_MESSAGE" value="probando la estructura del grafo" />
+    <MESSAGE value="actualizando el README" />
+    <option name="LAST_COMMIT_MESSAGE" value="actualizando el README" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="494" y="97" key="CommitChangelistDialog2" timestamp="1575913965008">
+    <state x="494" y="97" key="CommitChangelistDialog2" timestamp="1575914176918">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="494" y="97" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1575913965008" />
-    <state width="1659" height="271" key="GridCell.Tab.0.bottom" timestamp="1575908077459">
+    <state x="494" y="97" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1575914176918" />
+    <state width="1659" height="470" key="GridCell.Tab.0.bottom" timestamp="1575919996213">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="271" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1575908077459" />
-    <state width="1659" height="271" key="GridCell.Tab.0.center" timestamp="1575908077458">
+    <state width="1659" height="470" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1575919996213" />
+    <state width="1659" height="470" key="GridCell.Tab.0.center" timestamp="1575919996213">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="271" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1575908077458" />
-    <state width="1659" height="271" key="GridCell.Tab.0.left" timestamp="1575908077458">
+    <state width="1659" height="470" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1575919996213" />
+    <state width="1659" height="470" key="GridCell.Tab.0.left" timestamp="1575919996212">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="271" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1575908077458" />
-    <state width="1659" height="271" key="GridCell.Tab.0.right" timestamp="1575908077458">
+    <state width="1659" height="470" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1575919996212" />
+    <state width="1659" height="470" key="GridCell.Tab.0.right" timestamp="1575919996213">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="271" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1575908077458" />
+    <state width="1659" height="470" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1575919996213" />
     <state x="341" y="147" key="SettingsEditor" timestamp="1575902966684">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="341" y="147" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1575902966684" />
+    <state x="432" y="237" key="Vcs.Push.Dialog.v2" timestamp="1575914183786">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="432" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1575914183786" />
     <state x="536" y="328" key="com.intellij.ide.util.TipDialog" timestamp="1575902617607">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>

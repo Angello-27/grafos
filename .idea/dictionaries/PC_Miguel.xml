@@ -2,17 +2,28 @@
   <dictionary name="PC-Miguel">
     <words>
       <w>agregar</w>
+      <w>arista</w>
       <w>cantidad</w>
       <w>clave</w>
       <w>conectados</w>
       <w>conectar</w>
+      <w>conexion</w>
+      <w>construir</w>
       <w>costo</w>
+      <w>distancia</w>
+      <w>elemento</w>
       <w>elementos</w>
       <w>enlazar</w>
+      <w>estado</w>
       <w>grafo</w>
+      <w>imprimir</w>
+      <w>marcar</w>
+      <w>modelo</w>
+      <w>nombre</w>
       <w>nuevo</w>
       <w>obtener</w>
       <w>ponderacion</w>
+      <w>tiempo</w>
       <w>vecino</w>
       <w>vertice</w>
     </words>
