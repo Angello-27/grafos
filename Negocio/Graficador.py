@@ -4,7 +4,7 @@ import matplotlib.pyplot as gestor
 
 # metodo que visualiza el grafo en la pantalla
 # mediante la libreria networkx
-def mostrar(grafo):
+def dibujar(grafo):
     grafico = network.DiGraph()  # utiliza la libreria para crea un objeto grafo
     for index in grafo.getElementos():
         vertice = grafo.obtener(index)
@@ -19,4 +19,4 @@ def mostrar(grafo):
     gestor.show()
     network.draw(grafico)
     # utiliza la libreria para guarda el objeto grafo en formato png
-    gestor.savefig("diseño.png")
+    gestor.savefig("grafico.png")

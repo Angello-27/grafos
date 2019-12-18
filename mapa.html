@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d5896db793ba4e718134bf4a47b0c16e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_d5896db793ba4e718134bf4a47b0c16e" ></div>
+        
+</body>
+<script>    
+    
+            var map_d5896db793ba4e718134bf4a47b0c16e = L.map(
+                "map_d5896db793ba4e718134bf4a47b0c16e",
+                {
+                    center: [-17.783118, -63.181258],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8c674d8fa637460baf90e6319a8c96c5 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d5896db793ba4e718134bf4a47b0c16e);
+        
+    
+            var marker_cffa132f70314e52955e8d8dec65fa4d = L.marker(
+                [-17.77553, -63.195854],
+                {}
+            ).addTo(map_d5896db793ba4e718134bf4a47b0c16e);
+        
+    
+        var popup_4bb8e5139f124d32b9b1524a21980615 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c3e877cf51440638bca70614b91e0e6 = $(`<div id="html_0c3e877cf51440638bca70614b91e0e6" style="width: 100.0%; height: 100.0%;"><strong>Universidad Autónoma Gabriel Rene Moreno</strong></div>`)[0];
+            popup_4bb8e5139f124d32b9b1524a21980615.setContent(html_0c3e877cf51440638bca70614b91e0e6);
+        
+
+        marker_cffa132f70314e52955e8d8dec65fa4d.bindPopup(popup_4bb8e5139f124d32b9b1524a21980615)
+        ;
+
+        
+    
+    
+            marker_cffa132f70314e52955e8d8dec65fa4d.bindTooltip(
+                `<div>
+                     Haga clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_000e26f3ee464ddbbce1fa3126eabf86 = L.marker(
+                [-17.793336, -63.18816],
+                {}
+            ).addTo(map_d5896db793ba4e718134bf4a47b0c16e);
+        
+    
+        var popup_fe41163b5e684e3f8481d0bfd48b2a78 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06ee6972156c4d368667b218035b111e = $(`<div id="html_06ee6972156c4d368667b218035b111e" style="width: 100.0%; height: 100.0%;"><strong>La Ramada</strong></div>`)[0];
+            popup_fe41163b5e684e3f8481d0bfd48b2a78.setContent(html_06ee6972156c4d368667b218035b111e);
+        
+
+        marker_000e26f3ee464ddbbce1fa3126eabf86.bindPopup(popup_fe41163b5e684e3f8481d0bfd48b2a78)
+        ;
+
+        
+    
+    
+            marker_000e26f3ee464ddbbce1fa3126eabf86.bindTooltip(
+                `<div>
+                     Haga clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_87d0131d96fd45d58b54cf8d32751cc5 = L.marker(
+                [-17.790315, -63.205503],
+                {}
+            ).addTo(map_d5896db793ba4e718134bf4a47b0c16e);
+        
+    
+        var popup_0e11c54bda22401eabb85aae6173c5cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c8b148133784c03b3b152af80542904 = $(`<div id="html_2c8b148133784c03b3b152af80542904" style="width: 100.0%; height: 100.0%;"><strong>Centro Comercial Chiriguano</strong></div>`)[0];
+            popup_0e11c54bda22401eabb85aae6173c5cd.setContent(html_2c8b148133784c03b3b152af80542904);
+        
+
+        marker_87d0131d96fd45d58b54cf8d32751cc5.bindPopup(popup_0e11c54bda22401eabb85aae6173c5cd)
+        ;
+
+        
+    
+    
+            marker_87d0131d96fd45d58b54cf8d32751cc5.bindTooltip(
+                `<div>
+                     Haga clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8a55cbc4b6074f738dbfb7afa8660a2d = L.marker(
+                [-17.798327, -63.179034],
+                {}
+            ).addTo(map_d5896db793ba4e718134bf4a47b0c16e);
+        
+    
+        var popup_ee178191d478427797efc64e565ee288 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f5c296e24d444b3bf0a382e61d8e610 = $(`<div id="html_0f5c296e24d444b3bf0a382e61d8e610" style="width: 100.0%; height: 100.0%;"><strong>Cine Center</strong></div>`)[0];
+            popup_ee178191d478427797efc64e565ee288.setContent(html_0f5c296e24d444b3bf0a382e61d8e610);
+        
+
+        marker_8a55cbc4b6074f738dbfb7afa8660a2d.bindPopup(popup_ee178191d478427797efc64e565ee288)
+        ;
+
+        
+    
+    
+            marker_8a55cbc4b6074f738dbfb7afa8660a2d.bindTooltip(
+                `<div>
+                     Haga clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_60f10ccb207c4ef5b482ce93b1817ead = L.marker(
+                [-17.74914, -63.175953],
+                {}
+            ).addTo(map_d5896db793ba4e718134bf4a47b0c16e);
+        
+    
+        var popup_ea2d0f2b94c04c9b8148a7dd8c30bfdf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed36695b7f9b44f28d4a0d34b4d55bf0 = $(`<div id="html_ed36695b7f9b44f28d4a0d34b4d55bf0" style="width: 100.0%; height: 100.0%;"><strong>Las Brisas Centro Comercial</strong></div>`)[0];
+            popup_ea2d0f2b94c04c9b8148a7dd8c30bfdf.setContent(html_ed36695b7f9b44f28d4a0d34b4d55bf0);
+        
+
+        marker_60f10ccb207c4ef5b482ce93b1817ead.bindPopup(popup_ea2d0f2b94c04c9b8148a7dd8c30bfdf)
+        ;
+
+        
+    
+    
+            marker_60f10ccb207c4ef5b482ce93b1817ead.bindTooltip(
+                `<div>
+                     Haga clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_38e38aaea6774899b7edb1abc1372493 = L.marker(
+                [-17.754422, -63.199559],
+                {}
+            ).addTo(map_d5896db793ba4e718134bf4a47b0c16e);
+        
+    
+        var popup_cdbb61d0c16b42f5963f2c13c3859e61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a04e8379aa0d409ba4b374038bc8d899 = $(`<div id="html_a04e8379aa0d409ba4b374038bc8d899" style="width: 100.0%; height: 100.0%;"><strong>Centro Comercial Ventura Mall</strong></div>`)[0];
+            popup_cdbb61d0c16b42f5963f2c13c3859e61.setContent(html_a04e8379aa0d409ba4b374038bc8d899);
+        
+
+        marker_38e38aaea6774899b7edb1abc1372493.bindPopup(popup_cdbb61d0c16b42f5963f2c13c3859e61)
+        ;
+
+        
+    
+    
+            marker_38e38aaea6774899b7edb1abc1372493.bindTooltip(
+                `<div>
+                     Haga clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d1aa6ab1f99146379f79bf492b94cb1f = L.marker(
+                [-17.770142, -63.182428],
+                {}
+            ).addTo(map_d5896db793ba4e718134bf4a47b0c16e);
+        
+    
+        var popup_2c1f5d6e6d804c76b6ad68ed494e561e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5554885ac6e426e99bff286e60ed32c = $(`<div id="html_b5554885ac6e426e99bff286e60ed32c" style="width: 100.0%; height: 100.0%;"><strong>Monumento Cristo Redentor</strong></div>`)[0];
+            popup_2c1f5d6e6d804c76b6ad68ed494e561e.setContent(html_b5554885ac6e426e99bff286e60ed32c);
+        
+
+        marker_d1aa6ab1f99146379f79bf492b94cb1f.bindPopup(popup_2c1f5d6e6d804c76b6ad68ed494e561e)
+        ;
+
+        
+    
+    
+            marker_d1aa6ab1f99146379f79bf492b94cb1f.bindTooltip(
+                `<div>
+                     Haga clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6d87383d8e794ade8971cdfeb5507712 = L.marker(
+                [-17.78382, -63.181833],
+                {}
+            ).addTo(map_d5896db793ba4e718134bf4a47b0c16e);
+        
+    
+        var popup_c0bc5cc018354f84bd585d5d2eeee58c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff22357db89848698f30d0e6ac929ce9 = $(`<div id="html_ff22357db89848698f30d0e6ac929ce9" style="width: 100.0%; height: 100.0%;"><strong>Catedral Metropolitana Basílica Menor de San Lorenzo de Santa Cruz</strong></div>`)[0];
+            popup_c0bc5cc018354f84bd585d5d2eeee58c.setContent(html_ff22357db89848698f30d0e6ac929ce9);
+        
+
+        marker_6d87383d8e794ade8971cdfeb5507712.bindPopup(popup_c0bc5cc018354f84bd585d5d2eeee58c)
+        ;
+
+        
+    
+    
+            marker_6d87383d8e794ade8971cdfeb5507712.bindTooltip(
+                `<div>
+                     Haga clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>

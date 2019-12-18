@@ -7,15 +7,15 @@ class Arista:
         self.estado = False
         self.distancia = distancia
 
-    # metodos getters
+    # metodo getters
     def getTiempo(self):
         return self.tiempo
 
-    # metodos getters
+    # metodo getters
     def getDistancia(self):
         return self.distancia
 
-    # metodos getters
+    # metodo getters
     def getEstado(self):
         return self.estado
 
@@ -35,19 +35,27 @@ class Nodo:
         self.longitud = longitud
         self.conectados = {}  # lista de arista a los que esta conectado el nodo
 
-    # metodos getters
+    # metodo getters
     def getId(self):
         return self.id
 
-    # metodos getters
+    # metodo getters
     def getNombre(self):
         return self.nombre
 
-    # metodos getters
+    # metodo getters
+    def getLatitud(self):
+        return self.latitud
+
+    # metodo getters
+    def getLongitud(self):
+        return self.longitud
+
+    # metodo getters
     def getConectados(self):
         return self.conectados.keys()
 
-    # metodos getters
+    # metodo getters
     def getConexion(self, item):
         return self.conectados[item]
 
@@ -84,7 +92,7 @@ class Grafo:
         else:
             return None
 
-    # metodos getters
+    # metodo getters
     def getElementos(self):
         return self.elementos.keys()
 
