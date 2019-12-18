@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="934684e3-a95f-41e7-96b0-621ca17d3aeb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Negocio/Diseñador.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapa.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/PC_Miguel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/PC_Miguel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modelo/Estructura.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo/Estructura.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Negocio/Graficador.py" beforeDir="false" afterPath="$PROJECT_DIR$/Negocio/Graficador.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diseño.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapa.html" beforeDir="false" afterPath="$PROJECT_DIR$/mapa.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576696503656</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="incorporando los mapas dentro del proyecto">
+      <created>1576703676596</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1576703676596</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -165,37 +166,38 @@
     <MESSAGE value="actualizando la esctructura de los elementos" />
     <MESSAGE value="preparando el proyecto antes de la presentacion" />
     <MESSAGE value="agregando comentarios a los metodos" />
-    <option name="LAST_COMMIT_MESSAGE" value="agregando comentarios a los metodos" />
+    <MESSAGE value="incorporando los mapas dentro del proyecto" />
+    <option name="LAST_COMMIT_MESSAGE" value="incorporando los mapas dentro del proyecto" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="494" y="97" key="CommitChangelistDialog2" timestamp="1576696503008">
+    <state x="494" y="97" key="CommitChangelistDialog2" timestamp="1576703676032">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="494" y="97" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1576696503008" />
-    <state width="1659" height="221" key="GridCell.Tab.0.bottom" timestamp="1576702960325">
+    <state x="494" y="97" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1576703676032" />
+    <state width="1659" height="221" key="GridCell.Tab.0.bottom" timestamp="1576704275574">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="221" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1576702960325" />
-    <state width="1659" height="221" key="GridCell.Tab.0.center" timestamp="1576702960325">
+    <state width="1659" height="221" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1576704275574" />
+    <state width="1659" height="221" key="GridCell.Tab.0.center" timestamp="1576704275573">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="221" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1576702960325" />
-    <state width="1659" height="221" key="GridCell.Tab.0.left" timestamp="1576702960325">
+    <state width="1659" height="221" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1576704275573" />
+    <state width="1659" height="221" key="GridCell.Tab.0.left" timestamp="1576704275573">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="221" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1576702960325" />
-    <state width="1659" height="221" key="GridCell.Tab.0.right" timestamp="1576702960325">
+    <state width="1659" height="221" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1576704275573" />
+    <state width="1659" height="221" key="GridCell.Tab.0.right" timestamp="1576704275573">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="221" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1576702960325" />
+    <state width="1659" height="221" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1576704275573" />
     <state x="341" y="147" key="SettingsEditor" timestamp="1576679852065">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="341" y="147" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1576679852065" />
-    <state x="432" y="237" key="Vcs.Push.Dialog.v2" timestamp="1576687295464">
+    <state x="432" y="237" key="Vcs.Push.Dialog.v2" timestamp="1576703684390">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="432" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1576687295464" />
+    <state x="432" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1576703684390" />
     <state x="536" y="328" key="com.intellij.ide.util.TipDialog" timestamp="1576695097928">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
