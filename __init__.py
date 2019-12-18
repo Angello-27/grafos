@@ -7,7 +7,7 @@ def main():
     grafo = construir()
     imprimir(grafo)
     mostrar(grafo)
-    # dibujar(grafo)
+    dibujar(grafo)
 
 
 if __name__ == '__main__':
