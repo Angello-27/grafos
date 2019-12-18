@@ -7,13 +7,15 @@ class Arista:
         self.estado = False
         self.distancia = distancia
 
-    # metodo getters
+    # metodos getters
     def getTiempo(self):
         return self.tiempo
 
+    # metodos getters
     def getDistancia(self):
         return self.distancia
 
+    # metodos getters
     def getEstado(self):
         return self.estado
 
@@ -37,12 +39,15 @@ class Nodo:
     def getId(self):
         return self.id
 
+    # metodos getters
     def getNombre(self):
         return self.nombre
 
+    # metodos getters
     def getConectados(self):
         return self.conectados.keys()
 
+    # metodos getters
     def getConexion(self, item):
         return self.conectados[item]
 
@@ -93,5 +98,6 @@ class Grafo:
     def __contains__(self, item):
         return item in self.elementos
 
+    # metodo que permite el uso de 'in' dentro de un ciclo
     def __iter__(self):
         return iter(self.elementos.values())
