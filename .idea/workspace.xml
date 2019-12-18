@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="934684e3-a95f-41e7-96b0-621ca17d3aeb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Modelo/Estructura.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo/Estructura.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/PC_Miguel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/PC_Miguel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Negocio/Graficador.py" beforeDir="false" afterPath="$PROJECT_DIR$/Negocio/Graficador.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Negocio/Organizador.py" beforeDir="false" afterPath="$PROJECT_DIR$/Negocio/Organizador.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576687231389</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="preparando el proyecto antes de la presentacion">
+      <created>1576687283794</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1576687283794</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -146,10 +156,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="preparando el proyecto antes de la presentacion" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="494" y="97" key="CommitChangelistDialog2" timestamp="1576687230859">
+    <state x="494" y="97" key="CommitChangelistDialog2" timestamp="1576687289258">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="494" y="97" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1576687230859" />
+    <state x="494" y="97" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1576687289258" />
     <state width="1659" height="368" key="GridCell.Tab.0.bottom" timestamp="1576687151205">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -170,13 +180,13 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="341" y="147" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1576679852065" />
-    <state x="432" y="237" key="Vcs.Push.Dialog.v2" timestamp="1575922027905">
+    <state x="432" y="237" key="Vcs.Push.Dialog.v2" timestamp="1576687295464">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="432" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1575922027905" />
-    <state x="536" y="328" key="com.intellij.ide.util.TipDialog" timestamp="1576679761004">
+    <state x="432" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1576687295464" />
+    <state x="536" y="328" key="com.intellij.ide.util.TipDialog" timestamp="1576695097928">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="536" y="328" key="com.intellij.ide.util.TipDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1576679761004" />
+    <state x="536" y="328" key="com.intellij.ide.util.TipDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1576695097928" />
   </component>
 </project>

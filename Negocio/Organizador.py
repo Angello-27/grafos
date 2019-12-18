@@ -1,6 +1,7 @@
 import Modelo.Estructura as modelo
 
 
+# metodo que contruye un nuevo grafo
 def construir():
     grafo = modelo.Grafo()
     grafo.agregar("Universidad Autónoma Gabriel Rene Moreno", -17.775530, -63.195854)
@@ -14,6 +15,7 @@ def construir():
     return unir(grafo)
 
 
+# metodo que enlaza todos los elementos del grafo
 def unir(grafo):
     grafo.enlazar(0, 4, 0, 8)
     grafo.enlazar(0, 1, 0, 5)
@@ -29,6 +31,7 @@ def unir(grafo):
     return grafo
 
 
+# metodo que imprime todos los elementos del grafo en consola
 def imprimir(grafo):
     for elemento in grafo:
         print(elemento)
