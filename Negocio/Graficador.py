@@ -3,10 +3,10 @@ import matplotlib.pyplot as gestor
 
 
 def mostrar(grafo):
-    grafico = network.Graph()
+    grafico = network.DiGraph()
     for index in grafo.getElementos():
-        grafico.add_node(index)
         vertice = grafo.obtener(index)
+        grafico.add_node(vertice.getId(), nombre=vertice.getNombre())
         for arista in vertice.getConectados():
             grafico.add_edge(index, arista)
 
