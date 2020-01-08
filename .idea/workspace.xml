@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="934684e3-a95f-41e7-96b0-621ca17d3aeb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modelo/Estructura.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo/Estructura.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Negocio/Graficador.py" beforeDir="false" afterPath="$PROJECT_DIR$/Negocio/Graficador.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Negocio/Diseñador.py" beforeDir="false" afterPath="$PROJECT_DIR$/Negocio/Diseñador.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Negocio/Organizador.py" beforeDir="false" afterPath="$PROJECT_DIR$/Negocio/Organizador.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grafico.png" beforeDir="false" afterPath="$PROJECT_DIR$/grafico.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mapa.html" beforeDir="false" afterPath="$PROJECT_DIR$/mapa.html" afterDir="false" />
     </list>
@@ -193,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578506744583</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="terminando la estructrura del proyecto">
+      <created>1578510035448</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1578510035448</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -208,37 +215,38 @@
     <MESSAGE value="primera parte del proyecto terminado" />
     <MESSAGE value="abriendo el navegador" />
     <MESSAGE value="modificando todo el proyecto" />
-    <option name="LAST_COMMIT_MESSAGE" value="modificando todo el proyecto" />
+    <MESSAGE value="terminando la estructrura del proyecto" />
+    <option name="LAST_COMMIT_MESSAGE" value="terminando la estructrura del proyecto" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="494" y="97" key="CommitChangelistDialog2" timestamp="1578506744014">
+    <state x="494" y="97" key="CommitChangelistDialog2" timestamp="1578510034947">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="494" y="97" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1578506744014" />
-    <state width="1659" height="293" key="GridCell.Tab.0.bottom" timestamp="1578507679820">
+    <state x="494" y="97" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1578510034947" />
+    <state width="1659" height="293" key="GridCell.Tab.0.bottom" timestamp="1578511892393">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="293" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1578507679820" />
-    <state width="1659" height="293" key="GridCell.Tab.0.center" timestamp="1578507679820">
+    <state width="1659" height="293" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1578511892393" />
+    <state width="1659" height="293" key="GridCell.Tab.0.center" timestamp="1578511892393">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="293" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1578507679820" />
-    <state width="1659" height="293" key="GridCell.Tab.0.left" timestamp="1578507679819">
+    <state width="1659" height="293" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1578511892393" />
+    <state width="1659" height="293" key="GridCell.Tab.0.left" timestamp="1578511892393">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="293" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1578507679819" />
-    <state width="1659" height="293" key="GridCell.Tab.0.right" timestamp="1578507679820">
+    <state width="1659" height="293" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1578511892393" />
+    <state width="1659" height="293" key="GridCell.Tab.0.right" timestamp="1578511892393">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="293" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1578507679820" />
+    <state width="1659" height="293" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1578511892393" />
     <state x="341" y="147" key="SettingsEditor" timestamp="1576679852065">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="341" y="147" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1576679852065" />
-    <state x="432" y="237" key="Vcs.Push.Dialog.v2" timestamp="1578493403054">
+    <state x="432" y="237" key="Vcs.Push.Dialog.v2" timestamp="1578510041522">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="432" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1578493403054" />
+    <state x="432" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1578510041522" />
     <state x="536" y="328" key="com.intellij.ide.util.TipDialog" timestamp="1578490730970">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>

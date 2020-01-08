@@ -51,7 +51,7 @@ class Nodo:
 
     # metodo getters
     def getConectados(self):
-        return self.conectados
+        return self.conectados.values()
 
     def conectar(self, id, arista):
         self.conectados[id] = arista

@@ -12,9 +12,13 @@ def mostrar(grafo):
 
 
 def marcar(grafo, mapa):
-    tooltip = 'Haga clic para más información'
+    tooltip = 'Haga clic para obtener más información'
     for nodo in grafo:
-        popup = "<strong>" + nodo.getNombre() + "</strong>"
+        popup = "<strong>" + str(nodo.getId()) + ":" + nodo.getNombre() + "</strong>"
         folium.Marker([nodo.getLatitud(), nodo.getLongitud()],
                       tooltip=tooltip,
                       popup=popup).add_to(mapa)
+        for arista in nodo.getConectados():
+            folium.PolyLine(arista.getLinea(),
+                            color="red",
+                            weight=2.5).add_to(mapa)
