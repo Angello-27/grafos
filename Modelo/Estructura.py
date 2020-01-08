@@ -1,43 +1,36 @@
 class Arista:
 
-    # constructor con parametros de la clase
-    # atributos de la clase son el tiempo, distancia y su estado
-    def __init__(self, tiempo, distancia):
-        self.tiempo = tiempo
+    # constructor de la clase
+    def __init__(self, peso, linea):
+        self.peso = peso
+        self.linea = linea
         self.estado = False
-        self.distancia = distancia
 
     # metodo getters
-    def getTiempo(self):
-        return self.tiempo
+    def getPeso(self):
+        return self.peso
 
     # metodo getters
-    def getDistancia(self):
-        return self.distancia
+    def getLinea(self):
+        return self.linea
 
     # metodo getters
     def getEstado(self):
         return self.estado
 
-    # metodo que modifica el estado de la arista
+    # metodo marcar el estado de la arista
     def marcar(self, value):
         self.estado = value
 
 
 class Nodo:
 
-    # constructor con parametros de la clase
-    # atributos de la clase son el id, nombre, latitud y longitud
-    def __init__(self, id, nombre, latitud, longitud):
-        self.id = id
+    # constructor de la clase
+    def __init__(self, nombre, latitud, longitud):
         self.nombre = nombre
         self.latitud = latitud
         self.longitud = longitud
-        self.conectados = {}  # lista de arista a los que esta conectado el nodo
-
-    # metodo getters
-    def getId(self):
-        return self.id
+        self.conectados = {}
 
     # metodo getters
     def getNombre(self):
@@ -53,59 +46,47 @@ class Nodo:
 
     # metodo getters
     def getConectados(self):
-        return self.conectados.keys()
+        return self.conectados
 
-    # metodo getters
-    def getConexion(self, item):
-        return self.conectados[item]
+    def conectar(self, id, arista):
+        self.conectados[id] = arista
 
-    # metodo encargado de conectarse con otro nodo mediante una arista
-    def conectar(self, item, conexion):
-        self.conectados[item] = conexion
-
-    # metodo que imprime el id, nombre y la lista de arista de un nodo
     def __str__(self):
-        return "id:" + str(self.id) + ", nombre:" + self.nombre + \
-               "\nConectados:" + str([arista for arista in self.conectados])
+        return self.nombre + " {" + str(self.latitud) + "," + str(self.longitud) + "}" + "\nConectados:" + \
+               str(['id:' + str(arista) + ' -> peso: ' + str(self.conectados[arista].peso)
+                    for arista in self.conectados.keys()]) + "\n"
 
 
 class Grafo:
 
-    # constructor con parametros de la clase
-    # atributos de la clase son cantidad total de nodos
+    # constructor de la clase
     def __init__(self):
         self.cantidad = 0
-        self.elementos = {}  # lista de nodos dentro del grafo
+        self.elementos = {}
 
-    # metodo encargado de insertar un nuevo nodo al grafo
-    # colocando como id del nodo el total de elementos del grafo
-    def agregar(self, nombre, latitud, longitud):
-        vertice = Nodo(self.cantidad, nombre, latitud, longitud)
-        self.elementos[self.cantidad] = vertice
+    def agregar(self, id, nombre, latitud, longitud):
+        nodo = Nodo(nombre, latitud, longitud)
+        self.elementos[id] = nodo
         self.cantidad = self.cantidad + 1
-        return vertice
 
-    # metodo encargado de obtener un nodo mediante su id
-    def obtener(self, index):
-        if index in self.elementos:
-            return self.elementos[index]
+    def existe(self, index):
+        if index in self.elementos.keys():
+            return True
         else:
-            return None
+            return False
 
-    # metodo getters
-    def getElementos(self):
-        return self.elementos.keys()
+    def enlazar(self, index1, index2, peso, linea):
+        if self.existe(index1) and self.existe(index2):
+            arista = Arista(peso, linea)
+            nodo = self.elementos[index1]
+            nodo.conectar(index2, arista)
+        else:
+            print("no se puede unir los elementos")
 
-    # metodo encargado de enlazar un nodo con otro
-    # usando los id de los nodo para generar una nueva arista
-    def enlazar(self, id1, id2, tiempo, distancia):
-        conexion = Arista(tiempo, distancia)
-        self.elementos[id1].conectar(id2, conexion)
-
-    # metodo que permite el uso de 'in' dentro de un ciclo
+    # metodo que permite el uso de la funcion 'in' dentro del 'for'
     def __contains__(self, item):
         return item in self.elementos
 
-    # metodo que permite el uso de 'in' dentro de un ciclo
+    # metodo que permite el uso de la funcion 'in' dentro del 'for'
     def __iter__(self):
         return iter(self.elementos.values())

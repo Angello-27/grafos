@@ -5,6 +5,7 @@
       <w>arista</w>
       <w>atributos</w>
       <w>cantidad</w>
+      <w>clase</w>
       <w>clave</w>
       <w>conectados</w>
       <w>conectar</w>
@@ -18,6 +19,7 @@
       <w>enlazar</w>
       <w>esquemar</w>
       <w>estado</w>
+      <w>existe</w>
       <w>grafico</w>
       <w>grafo</w>
       <w>imprimir</w>
@@ -33,6 +35,7 @@
       <w>nuevo</w>
       <w>obtener</w>
       <w>ponderacion</w>
+      <w>puntos</w>
       <w>tiempo</w>
       <w>unir</w>
       <w>vecino</w>

@@ -20,6 +20,7 @@
       <option name="ignoredIdentifiers">
         <list>
           <option value="Negocio.Construir" />
+          <option value="dict.*" />
         </list>
       </option>
     </inspection_tool>
