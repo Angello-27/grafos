@@ -26,11 +26,16 @@ class Arista:
 class Nodo:
 
     # constructor de la clase
-    def __init__(self, nombre, latitud, longitud):
+    def __init__(self, id, nombre, latitud, longitud):
+        self.id = id
         self.nombre = nombre
         self.latitud = latitud
         self.longitud = longitud
         self.conectados = {}
+
+    # metodo getters
+    def getId(self):
+        return self.id
 
     # metodo getters
     def getNombre(self):
@@ -52,7 +57,8 @@ class Nodo:
         self.conectados[id] = arista
 
     def __str__(self):
-        return self.nombre + " {" + str(self.latitud) + "," + str(self.longitud) + "}" + "\nConectados:" + \
+        return str(self.id) + ":" + self.nombre + " {" + str(self.latitud) + "," \
+               + str(self.longitud) + "}" + "\nConectados:" + \
                str(['id:' + str(arista) + ' -> peso: ' + str(self.conectados[arista].peso)
                     for arista in self.conectados.keys()]) + "\n"
 
@@ -64,8 +70,12 @@ class Grafo:
         self.cantidad = 0
         self.elementos = {}
 
+    # metodo getters
+    def getElementos(self):
+        return self.elementos.keys()
+
     def agregar(self, id, nombre, latitud, longitud):
-        nodo = Nodo(nombre, latitud, longitud)
+        nodo = Nodo(id, nombre, latitud, longitud)
         self.elementos[id] = nodo
         self.cantidad = self.cantidad + 1
 
@@ -74,6 +84,10 @@ class Grafo:
             return True
         else:
             return False
+
+    def obtener(self, index):
+        if self.existe(index):
+            return self.elementos[index]
 
     def enlazar(self, index1, index2, peso, linea):
         if self.existe(index1) and self.existe(index2):
