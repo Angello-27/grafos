@@ -1,4 +1,5 @@
 import folium
+import webbrowser
 
 
 def mostrar(grafo):
@@ -7,6 +8,7 @@ def mostrar(grafo):
     mapa = folium.Map(location=santa_cruz, zoom_start=zoom)
     marcar(grafo, mapa)
     mapa.save('mapa.html')
+    webbrowser.open('mapa.html', new=0, autoraise=True)
 
 
 def marcar(grafo, mapa):

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="934684e3-a95f-41e7-96b0-621ca17d3aeb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Negocio/Diseñador.py" beforeDir="false" afterPath="$PROJECT_DIR$/Negocio/Diseñador.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapa.html" beforeDir="false" afterPath="$PROJECT_DIR$/mapa.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,12 +22,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1UkZZtQuoWzyBBnv4cipJkRgCkg" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -162,10 +168,18 @@
       <option name="project" value="LOCAL" />
       <updated>1576704284266</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="primera parte del proyecto terminado">
+      <created>1576704314972</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1576704314972</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="guardando la estructura del modelo" />
     <MESSAGE value="probando la estructura del grafo" />
     <MESSAGE value="actualizando el README" />
@@ -173,40 +187,45 @@
     <MESSAGE value="preparando el proyecto antes de la presentacion" />
     <MESSAGE value="agregando comentarios a los metodos" />
     <MESSAGE value="incorporando los mapas dentro del proyecto" />
-    <option name="LAST_COMMIT_MESSAGE" value="incorporando los mapas dentro del proyecto" />
+    <MESSAGE value="primera parte del proyecto terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="primera parte del proyecto terminado" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="494" y="97" key="CommitChangelistDialog2" timestamp="1576704283779">
+    <state x="494" y="97" key="CommitChangelistDialog2" timestamp="1576704314498">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="494" y="97" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1576704283779" />
-    <state width="1659" height="221" key="GridCell.Tab.0.bottom" timestamp="1576704275574">
+    <state x="494" y="97" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1576704314498" />
+    <state width="1659" height="221" key="GridCell.Tab.0.bottom" timestamp="1578493362989">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="221" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1576704275574" />
-    <state width="1659" height="221" key="GridCell.Tab.0.center" timestamp="1576704275573">
+    <state width="1659" height="221" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1578493362989" />
+    <state width="1659" height="221" key="GridCell.Tab.0.center" timestamp="1578493362989">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="221" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1576704275573" />
-    <state width="1659" height="221" key="GridCell.Tab.0.left" timestamp="1576704275573">
+    <state width="1659" height="221" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1578493362989" />
+    <state width="1659" height="221" key="GridCell.Tab.0.left" timestamp="1578493362988">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="221" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1576704275573" />
-    <state width="1659" height="221" key="GridCell.Tab.0.right" timestamp="1576704275573">
+    <state width="1659" height="221" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1578493362988" />
+    <state width="1659" height="221" key="GridCell.Tab.0.right" timestamp="1578493362989">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="221" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1576704275573" />
+    <state width="1659" height="221" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1578493362989" />
     <state x="341" y="147" key="SettingsEditor" timestamp="1576679852065">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="341" y="147" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1576679852065" />
-    <state x="432" y="237" key="Vcs.Push.Dialog.v2" timestamp="1576704289583">
+    <state x="432" y="237" key="Vcs.Push.Dialog.v2" timestamp="1576704346384">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="432" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1576704289583" />
-    <state x="536" y="328" key="com.intellij.ide.util.TipDialog" timestamp="1576695097928">
+    <state x="432" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1576704346384" />
+    <state x="536" y="328" key="com.intellij.ide.util.TipDialog" timestamp="1578490730970">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="536" y="328" key="com.intellij.ide.util.TipDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1576695097928" />
+    <state x="536" y="328" key="com.intellij.ide.util.TipDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1578490730970" />
+    <state x="569" y="296" key="git4idea.merge.GitPullDialog" timestamp="1578490746598">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="569" y="296" key="git4idea.merge.GitPullDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1578490746598" />
   </component>
 </project>
